@@ -1,0 +1,35 @@
+CHANGELOG:
+
+ToDo:
+- Add custom cursor (aside the circular cursor, probably, an android-looking cursor)
+
+Version 0.0.3
+- Added Clipboard Copy feature
+- Added App Properties in main window
+- Added Button for extra app info in case of troubleshooting
+- Added Dependency Tree for more info in the readme (pressing the "About the Program" button)
+
+Version 0.0.2
+- Reverted everything back to SingleFile [in terms of the source code of the program]
+- Added Volume Slider
+- Added Reverser for Volume. You may now decrease volume
+- Added App Icon
+- Added Notifications
+- Added "About the Program" button
+- Fixed an issue where the text beside the volume slider is showing the wrong number
+- Fixed a small issue where a random argument is passed when calling a function
+- Fixed an issue where the radiobuttons (more commonly known as option buttons) won't clear when they're deactivated
+
+Version 0.0.1
+- Added "Clear Selection" button
+- Added Changelog
+- Added "Switch to Normal Cursor" Checkbox
+- Added Slider and related components
+- Made the Window Bigger (from 400 x 400 to 500 x 500)
+- Converted from Single-File to Multi-File because of this file
+- Placed functions in a separate file
+
+Fun Facts:
+- Bored? Try pressing buttons without touching anything
+- More bored? Value1 might heal that boredom
+- Volume Slider section may be broken for older laptops  (especially those that dont have media keys)
