@@ -3,6 +3,19 @@ CHANGELOG:
 ToDo:
 - Add custom cursor (aside the circular cursor, probably, an android-looking cursor)
 
+Might Do:
+- Make the window bigger
+
+Version 0.0.4
+- Added the feature to pick a random pastables
+- Added like, 35 different pastables
+- Changed paste picker button (under Clipboard) from "Copy to Clipboard" to "Give me a random thing to paste"
+- Alongside the above change, paste picker changed position in window
+- I *might* expand the window from 500 x 500 to something else
+- Changed README header "Changes" to "Latest Changes" to avoid confusion later on
+- Edited README header "Tkinter Testing" content. Look at the commit for more details as to _what_ was edited
+- Renoved Unanswered question on README
+
 Version 0.0.3
 - Added Clipboard Copy feature
 - Added App Properties in main window
