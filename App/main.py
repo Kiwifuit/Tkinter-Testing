@@ -60,7 +60,7 @@ class checkbox:
             messagebox.showerror("Dude", "Dude, select a goddamn number. It ain't that hard")
         if selector == 1:
             messagebox.showinfo("Camellia???", "NANI THE FUCK!!")
-        if selector != 0 and 1:
+        if selector != 0:
             messagebox.showinfo("Value Selected", "Value selected: " + "Value" + str(selector))
     def clear(*args, **kwargs):
         if radSelector.get() == 0:
@@ -81,7 +81,7 @@ class slider:
             for i in range(volInt):
                 keyboard.tap(Key.media_volume_up)
         if reverse == True:
-            for i in range(volInt):
+            for _ in range(volInt):
                 keyboard.tap(Key.media_volume_down)
 class misc: # This one i write
     def volUpdate(*args, **kwargs):
@@ -93,10 +93,7 @@ class misc: # This one i write
             volLabl2.config(text="Volume:\n-{0}".format(volumeInt * 2))
     def changeCursor(*args, **kwargs):
         val = circ.get()
-        if val == True:
-            root["cursor"] = "arrow"
-        else:
-            root["cursor"] = "circle"
+        root["cursor"] = "arrow" if val == True else "circle"
     def changelog(*args, **kwargs):
         runCommand("start App/Changelog.txt") # If you want to build this yourself, please remove "App/" part in this line of text. This came in handy when I was testing this for the non-dev builds. So if you are *that* suspicious about the releases, go ahead and convert this source into an exe if you like, OR put this into a folder called "App". CMD's path must be "C:\path\to\parent\" (eg. C:\Users\Kiwifruit\Documents\GitHub\Tkinter-Testing)
     def programAbout(*args, **kwargs):
